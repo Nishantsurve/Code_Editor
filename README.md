@@ -1,6 +1,9 @@
 
+# Getting Start
 
-# Getting Started with Create React App
+![Screenshot (152)](https://github.com/Nishantsurve/Code_Editor/assets/104264099/311bbf7c-f63f-4d04-8425-625bff9c6057)
+
+![Screenshot (151)](https://github.com/Nishantsurve/Code_Editor/assets/104264099/7bed0ac9-5f54-4323-970c-8129111a3f1c)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
