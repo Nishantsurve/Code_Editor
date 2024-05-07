@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-# demo [https://nishant-realtime-editor.netlify.app] 
+demo [https://nishant-realtime-editor.netlify.app] 
 
 In the project directory, you can run:
 
