@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Home from './pages/Home';
 import EditorPage from './pages/EditorPage';
-
+import Contact from './pages/contact/Contact';
 
 function App() {
     return (
@@ -27,7 +27,7 @@ function App() {
                         path="/editor/:roomId"
                         element={<EditorPage />}
                     ></Route>
-                    
+                    <Route path="/contact" element={<Contact />}></Route>
 
                 </Routes>
             </BrowserRouter>

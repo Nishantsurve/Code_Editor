@@ -7,9 +7,11 @@
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
     "codemirror": "^5.65.2",
+    "emailjs": "^4.0.3",
     "express": "^4.17.3",
     "react": "^17.0.2",
     "react-avatar": "^4.0.0",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^17.0.2",
     "react-hot-toast": "^2.2.0",
     "react-router-dom": "^6.2.1",
@@ -26,7 +28,8 @@
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "npm run start:front"
   },
   "eslintConfig": {
     "extends": [

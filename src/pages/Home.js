@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
+import Navbars from '../components/navbars/Navbars'
 
 const Home = () => {
     const navigate = useNavigate();
@@ -17,7 +18,7 @@ const Home = () => {
 
     const joinRoom = () => {
         if (!roomId || !username) {
-            toast.error('ROOM ID & username is required');
+            toast.error('ROOM ID & Username is required');
             return;
         }
 
@@ -35,6 +36,8 @@ const Home = () => {
         }
     };
     return (
+        <>
+            <Navbars/>
         <div className="homePageWrapper">
             <div className="formWrapper">
                 <img
@@ -77,11 +80,12 @@ const Home = () => {
             </div>
             <footer>
                 <h4>
-                    Built with  &nbsp;
+                    Built by  &nbsp;
                     <a href="https://github.com/Nishantsurve">Nishant surve</a>
                 </h4>
             </footer>
         </div>
+        </>
     );
 };
 
