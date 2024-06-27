@@ -27,10 +27,10 @@ const EditorPage = () => {
 
             function handleErrors(e) {
                 console.log('socket error', e);
-                toast.error('Socket connection failed, try again later.');
+                toast.error('Socket connection failed,please try again later.');
                 reactNavigator('/');
             }
-
+// client emitting join event to server
             socketRef.current.emit(ACTIONS.JOIN, {
                 roomId,
                 username: location.state?.username,
