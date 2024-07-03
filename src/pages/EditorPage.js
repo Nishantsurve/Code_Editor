@@ -4,6 +4,7 @@ import ACTIONS from '../Actions';
 import Client from '../components/Client';
 import Editor from '../components/Editor';
 import { initSocket } from '../socket';
+
 import {
     useLocation,
     useNavigate,
@@ -30,6 +31,7 @@ const EditorPage = () => {
                 toast.error('Socket connection failed,please try again later.');
                 reactNavigator('/');
             }
+            
 // client emitting join event to server
             socketRef.current.emit(ACTIONS.JOIN, {
                 roomId,
